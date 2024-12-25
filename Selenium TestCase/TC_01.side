@@ -1,0 +1,182 @@
+{
+  "id": "92c5a9d9-ee08-4b80-afa2-7376b4bfea8d",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://nhasachphuongnam.com/",
+  "tests": [{
+    "id": "cdfbb013-f665-499d-90c6-4c29b46362b0",
+    "name": "TC_01",
+    "commands": [{
+      "id": "1036d951-4cd9-4df5-b642-c0ec2f5bc742",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8e314b2-3c1a-4441-9817-12515927c620",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_input",
+      "targets": [
+        ["id=search_input", "id"],
+        ["name=q", "name"],
+        ["css=#search_input", "css:finder"],
+        ["xpath=//input[@id='search_input']", "xpath:attributes"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1509fb23-0390-4bb7-9343-9b7f242b09fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_input",
+      "targets": [
+        ["id=search_input", "id"],
+        ["name=q", "name"],
+        ["css=#search_input", "css:finder"],
+        ["xpath=//input[@id='search_input']", "xpath:attributes"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "xứ tuyết"
+    }, {
+      "id": "99e96e04-c670-4f91-acca-d39bbfc42799",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ut2-icon-search",
+      "targets": [
+        ["css=.ut2-icon-search", "css:finder"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "780b5008-41cf-4a70-9ea9-6cc1f59cda2a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=products_search_total_found_11",
+      "targets": [
+        ["id=products_search_total_found_11", "id"],
+        ["css=#products_search_total_found_11", "css:finder"],
+        ["xpath=//span[@id='products_search_total_found_11']", "xpath:attributes"],
+        ["xpath=//div[@id='tygh_main_container']/div[3]/div/div[2]/div/div/div/h1/span[2]", "xpath:idRelative"],
+        ["xpath=//h1/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sản phẩm tìm thấy: 8')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm tìm thấy: 8"
+    }]
+  }, {
+    "id": "0eb57204-ff3f-46f7-b529-18b3bd0d5d65",
+    "name": "TC_03",
+    "commands": [{
+      "id": "82281c0c-5533-4e9f-98ba-9ce793b725ef",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a41f43da-dfb4-4540-a387-7ca0265f9da8",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_input",
+      "targets": [
+        ["id=search_input", "id"],
+        ["name=q", "name"],
+        ["css=#search_input", "css:finder"],
+        ["xpath=//input[@id='search_input']", "xpath:attributes"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ae84e4-71ab-465c-9fa2-28e7183d9fe0",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_input",
+      "targets": [
+        ["id=search_input", "id"],
+        ["name=q", "name"],
+        ["css=#search_input", "css:finder"],
+        ["xpath=//input[@id='search_input']", "xpath:attributes"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "xyz123"
+    }, {
+      "id": "1f87d15b-ad3c-4c14-82c5-c5d301a10c2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ut2-icon-search",
+      "targets": [
+        ["css=.ut2-icon-search", "css:finder"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3742b3-d7f7-428f-9bc4-a423376e733f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ty-no-items",
+      "targets": [
+        ["css=.ty-no-items", "css:finder"],
+        ["xpath=//div[@id='products_search_11']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ebb91b20-19a5-4675-8b22-8aaac3b00a80",
+    "name": "TC_02",
+    "commands": [{
+      "id": "d40fb875-1b99-4e45-8b08-194a60944561",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42e93753-dcee-448e-9f40-51b0854db682",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ut2-icon-search",
+      "targets": [
+        ["css=.ut2-icon-search", "css:finder"],
+        ["xpath=//div[@id='tygh_main_container']/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "55cf64c3-2705-4740-8e19-bd5106fa203d",
+    "name": "TC_04",
+    "commands": [{
+      "id": "8d56a392-e8f5-4f2e-8e2c-658ec3c317d8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "595288cf-44c0-435f-b87d-25299f5fcb64",
+      "comment": "",
+      "command": "click",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3707c567-4d5a-47d3-81a6-d087a8c93742",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cdfbb013-f665-499d-90c6-4c29b46362b0"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://nhasachphuongnam.com/"],
+  "plugins": []
+}

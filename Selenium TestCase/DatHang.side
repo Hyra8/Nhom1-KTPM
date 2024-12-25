@@ -1,0 +1,505 @@
+{
+  "id": "5f892715-97cb-46eb-8f1a-aa3e2e1b7134",
+  "version": "2.0",
+  "name": "DatHang",
+  "url": "https://nhasachphuongnam.com/",
+  "tests": [{
+    "id": "d53ddb6e-e561-44df-a301-149a1e6a2841",
+    "name": "TC_01",
+    "commands": [{
+      "id": "ed387e71-e980-4fd5-92e3-1a88a456c009",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f78247-ac45-498c-a427-41c7bb1ac966",
+      "comment": "",
+      "command": "click",
+      "target": "id=sw_dropdown_4352",
+      "targets": [
+        ["id=sw_dropdown_4352", "id"],
+        ["css=#sw_dropdown_4352", "css:finder"],
+        ["xpath=//div[@id='sw_dropdown_4352']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_status_4352']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b865b589-0c93-41f3-91fa-806d30a1fd70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ty-btn > bdi",
+      "targets": [
+        ["css=.ty-btn > bdi", "css:finder"],
+        ["xpath=//div[@id='cart_content_4352']/div[3]/a[2]/bdi", "xpath:idRelative"],
+        ["xpath=//a[2]/bdi", "xpath:position"],
+        ["xpath=//bdi[contains(.,'Thanh toán')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8636656-8bdf-429d-8cbb-a6dab2bd6b5f",
+      "comment": "",
+      "command": "type",
+      "target": "css=#sb_14 > .litecheckout__label",
+      "targets": [
+        ["css=#sb_14 > .litecheckout__label", "css:finder"],
+        ["xpath=//div[@id='sb_14']/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/label", "xpath:position"]
+      ],
+      "value": "Trần Thế Hưởng"
+    }, {
+      "id": "2cd3e959-36a0-4ff1-9b1a-f9d5860c056f",
+      "comment": "",
+      "command": "type",
+      "target": "css=#sb_30 > .litecheckout__label",
+      "targets": [
+        ["css=#sb_30 > .litecheckout__label", "css:finder"],
+        ["xpath=//div[@id='sb_30']/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Điện thoại')]", "xpath:innerText"]
+      ],
+      "value": "0912345678"
+    }, {
+      "id": "31919f76-4d86-48b3-9701-5ac131a5b681",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_b_address",
+      "targets": [
+        ["id=litecheckout_b_address", "id"],
+        ["name=user_data[b_address]", "name"],
+        ["css=#litecheckout_b_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_b_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_18']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "Số 12 Hai Bà Trưng"
+    }, {
+      "id": "054d8a3b-ce88-4930-bcd8-14a92a8b47f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_15 > .litecheckout__label",
+      "targets": [
+        ["css=#sb_15 > .litecheckout__label", "css:finder"],
+        ["xpath=//div[@id='sb_15']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": "Trần Thế Hưởng"
+    }, {
+      "id": "c9350281-cdad-4aad-9971-70e538022bb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_s_address",
+      "targets": [
+        ["id=litecheckout_s_address", "id"],
+        ["name=user_data[s_address]", "name"],
+        ["css=#litecheckout_s_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_s_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_19']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Số 12 Hai Bà Trưng"
+    }, {
+      "id": "5a9a7c72-764f-4300-8153-5363f214a94a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_104 > .litecheckout__label",
+      "targets": [
+        ["css=#sb_104 > .litecheckout__label", "css:finder"],
+        ["xpath=//div[@id='sb_104']/label", "xpath:idRelative"],
+        ["xpath=//div[8]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'địa chỉ thuế')]", "xpath:innerText"]
+      ],
+      "value": "100000"
+    }, {
+      "id": "362ce6ab-5794-45e2-bfc7-c8f9ef784ce7",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_place_order",
+      "targets": [
+        ["id=litecheckout_place_order", "id"],
+        ["name=dispatch[checkout.place_order]", "name"],
+        ["css=#litecheckout_place_order", "css:finder"],
+        ["xpath=//button[@id='litecheckout_place_order']", "xpath:attributes"],
+        ["xpath=//div[@id='litecheckout_final_section']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1e81c1a-69b8-4d46-a2b3-6edcd2fde993",
+    "name": "TC_02",
+    "commands": [{
+      "id": "3995d029-ac79-4840-8081-386e208248d4",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b031710a-0464-499a-9a5b-c59bc2ce6c0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=sw_dropdown_4352",
+      "targets": [
+        ["id=sw_dropdown_4352", "id"],
+        ["css=#sw_dropdown_4352", "css:finder"],
+        ["xpath=//div[@id='sw_dropdown_4352']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_status_4352']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fe8a0a-2c23-417f-8248-097334fe13ae",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ty-cart-items__empty",
+      "targets": [
+        ["css=.ty-cart-items__empty", "css:finder"],
+        ["xpath=//div[@id='cart_content_4335']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "043997ac-616c-40bb-94cd-93daca526cce",
+    "name": "TC_03",
+    "commands": [{
+      "id": "e2c4535a-456f-413d-b825-6fab9aec3038",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11122b64-2a39-4781-b30d-ef663283da16",
+      "comment": "",
+      "command": "click",
+      "target": "id=sw_dropdown_4352",
+      "targets": [
+        ["id=sw_dropdown_4352", "id"],
+        ["css=#sw_dropdown_4352", "css:finder"],
+        ["xpath=//div[@id='sw_dropdown_4352']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_status_4352']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "660c437a-cd39-4896-846f-2d5bcb94c890",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ty-btn > bdi",
+      "targets": [
+        ["css=.ty-btn > bdi", "css:finder"],
+        ["xpath=//div[@id='cart_content_4352']/div[3]/a[2]/bdi", "xpath:idRelative"],
+        ["xpath=//a[2]/bdi", "xpath:position"],
+        ["xpath=//bdi[contains(.,'Thanh toán')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b07bfde-bf48-4805-a0b8-8ff2921534ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_firstname",
+      "targets": [
+        ["id=litecheckout_firstname", "id"],
+        ["name=user_data[firstname]", "name"],
+        ["css=#litecheckout_firstname", "css:finder"],
+        ["xpath=//input[@id='litecheckout_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_6']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29b06713-fdb1-490c-b5ef-92564bad0c2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_firstname",
+      "targets": [
+        ["id=litecheckout_firstname", "id"],
+        ["name=user_data[firstname]", "name"],
+        ["css=#litecheckout_firstname", "css:finder"],
+        ["xpath=//input[@id='litecheckout_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_6']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Trần Thế Hưởng"
+    }, {
+      "id": "442a3707-a66e-4026-9ef1-e500746ab95c",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_address",
+      "targets": [
+        ["id=litecheckout_address", "id"],
+        ["name=user_data[fields][83]", "name"],
+        ["css=#litecheckout_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_83']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87ecd29-1d50-423c-bc73-733d629908dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_address",
+      "targets": [
+        ["id=litecheckout_address", "id"],
+        ["name=user_data[fields][83]", "name"],
+        ["css=#litecheckout_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_83']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Số 12 Hai Bà Trưng"
+    }, {
+      "id": "72fc3327-cdbc-4789-988f-c1174b07f0cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_place_order",
+      "targets": [
+        ["id=litecheckout_place_order", "id"],
+        ["name=dispatch[checkout.place_order]", "name"],
+        ["css=#litecheckout_place_order", "css:finder"],
+        ["xpath=//button[@id='litecheckout_place_order']", "xpath:attributes"],
+        ["xpath=//div[@id='litecheckout_final_section']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe578f52-8039-4e74-acff-a452adbba65a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#litecheckout_phone_error_message > p",
+      "targets": [
+        ["css=#litecheckout_phone_error_message > p", "css:finder"],
+        ["xpath=//span[@id='litecheckout_phone_error_message']/p", "xpath:idRelative"],
+        ["xpath=//span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Mục Số điện thoại là bắt buộc.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ee7fc32-169d-473e-a4bb-91988f025400",
+    "name": "TC_04",
+    "commands": [{
+      "id": "9ca50777-e05a-4164-b9b0-79152381dbc6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fa9d0ce-56e6-43af-bb58-1313807c6ed0",
+      "comment": "",
+      "command": "click",
+      "target": "id=sw_dropdown_4352",
+      "targets": [
+        ["id=sw_dropdown_4352", "id"],
+        ["css=#sw_dropdown_4352", "css:finder"],
+        ["xpath=//div[@id='sw_dropdown_4352']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_status_4352']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a828b0-54cb-424c-a313-716e6923dade",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ty-btn > bdi",
+      "targets": [
+        ["css=.ty-btn > bdi", "css:finder"],
+        ["xpath=//div[@id='cart_content_4352']/div[3]/a[2]/bdi", "xpath:idRelative"],
+        ["xpath=//a[2]/bdi", "xpath:position"],
+        ["xpath=//bdi[contains(.,'Thanh toán')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a12ad11-ef1b-496b-a55a-0595dcf9f60b",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_firstname",
+      "targets": [
+        ["id=litecheckout_firstname", "id"],
+        ["name=user_data[firstname]", "name"],
+        ["css=#litecheckout_firstname", "css:finder"],
+        ["xpath=//input[@id='litecheckout_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_6']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7888aac-a80c-4bb1-9d55-bdf2073cbcb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_firstname",
+      "targets": [
+        ["id=litecheckout_firstname", "id"],
+        ["name=user_data[firstname]", "name"],
+        ["css=#litecheckout_firstname", "css:finder"],
+        ["xpath=//input[@id='litecheckout_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_6']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Trần Thế Hưởng"
+    }, {
+      "id": "41c10b56-c673-4963-9896-8234fedb1c29",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_address",
+      "targets": [
+        ["id=litecheckout_address", "id"],
+        ["name=user_data[fields][83]", "name"],
+        ["css=#litecheckout_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_83']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9b452d8-c987-4fa5-8c01-e954c178e0ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_address",
+      "targets": [
+        ["id=litecheckout_address", "id"],
+        ["name=user_data[fields][83]", "name"],
+        ["css=#litecheckout_address", "css:finder"],
+        ["xpath=//input[@id='litecheckout_address']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_83']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Số 12 Hai Bà Trưng"
+    }, {
+      "id": "fbd79e72-089e-4c09-a5f2-f26300460f94",
+      "comment": "",
+      "command": "click",
+      "target": "id=litecheckout_phone",
+      "targets": [
+        ["id=litecheckout_phone", "id"],
+        ["name=user_data[phone]", "name"],
+        ["css=#litecheckout_phone", "css:finder"],
+        ["xpath=//input[@id='litecheckout_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_9']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d39c52a-069e-49b5-a25f-64603b93fc9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=litecheckout_phone",
+      "targets": [
+        ["id=litecheckout_phone", "id"],
+        ["name=user_data[phone]", "name"],
+        ["css=#litecheckout_phone", "css:finder"],
+        ["xpath=//input[@id='litecheckout_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_9']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "0d603e3b-e57c-4c39-9fec-64bb403a5744",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sb_9 > #litecheckout_s_phone_error_message > p",
+      "targets": [
+        ["css=#sb_9 > #litecheckout_s_phone_error_message > p", "css:finder"],
+        ["xpath=//span[@id='litecheckout_s_phone_error_message']/p", "xpath:idRelative"],
+        ["xpath=//span/p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af1cb738-029f-4d37-95f0-faf3ecd9cb6f",
+    "name": "TC_05",
+    "commands": [{
+      "id": "3dd6f544-228f-4958-bcbe-b95ee094db13",
+      "comment": "",
+      "command": "open",
+      "target": "https://nhasachphuongnam.com/lego.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0813770-91c3-42cf-8b47-e9da6309c573",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đồ Chơi Lắp Ráp Giáng Sinh Có Nhạc 1019Pcs 1957",
+      "targets": [
+        ["linkText=Đồ Chơi Lắp Ráp Giáng Sinh Có Nhạc 1019Pcs 1957", "linkText"],
+        ["css=.ty-column4:nth-child(1) .product-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Đồ Chơi Lắp Ráp Giáng Sinh Có Nhạc 1019Pcs 1957')]", "xpath:link"],
+        ["xpath=//div[@id='categories_view_pagination_contents']/div/div/form/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhasachphuongnam.com/do-choi-lap-rap-giang-sinh-co-nhac-1019pcs-1957.html')])[2]", "xpath:href"],
+        ["xpath=//form/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đồ Chơi Lắp Ráp Giáng Sinh Có Nhạc 1019Pcs 1957')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b2c58f9-24b8-4547-8a24-907ebf79b62a",
+      "comment": "",
+      "command": "click",
+      "target": "id=qty_count_199638",
+      "targets": [
+        ["id=qty_count_199638", "id"],
+        ["name=product_data[199638][amount]", "name"],
+        ["css=#qty_count_199638", "css:finder"],
+        ["xpath=//input[@id='qty_count_199638']", "xpath:attributes"],
+        ["xpath=//div[@id='qty_199638']/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5aedaa3-619b-4f7e-bec8-0ac1fa2cff9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty_count_199638",
+      "targets": [
+        ["id=qty_count_199638", "id"],
+        ["name=product_data[199638][amount]", "name"],
+        ["css=#qty_count_199638", "css:finder"],
+        ["xpath=//input[@id='qty_count_199638']", "xpath:attributes"],
+        ["xpath=//div[@id='qty_199638']/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "99999999999999999999999999999"
+    }, {
+      "id": "f07d6eb5-6d65-4e49-80c3-9da0e2922346",
+      "comment": "",
+      "command": "click",
+      "target": "id=button_cart_199638",
+      "targets": [
+        ["id=button_cart_199638", "id"],
+        ["name=dispatch[checkout.add..199638]", "name"],
+        ["css=#button_cart_199638", "css:finder"],
+        ["xpath=//button[@id='button_cart_199638']", "xpath:attributes"],
+        ["xpath=//div[@id='add_to_cart_update_199638']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CHỌN MUA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1fb94a-18db-4c5e-93e1-939e10145783",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-notification-content",
+      "targets": [
+        ["css=.cm-notification-content", "css:finder"],
+        ["xpath=//div[@id='tygh_container']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d4f0ef9-9fec-4628-8d13-b5c74fb35fe5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d53ddb6e-e561-44df-a301-149a1e6a2841"]
+  }],
+  "urls": ["https://nhasachphuongnam.com/"],
+  "plugins": []
+}
